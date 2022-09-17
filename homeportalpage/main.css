@@ -8,6 +8,8 @@ img
 
 body {
     background-color:rgb(241, 239, 224);
+    max-width: 500px;
+    margin: 0 auto;
   }
 
   header {
@@ -17,6 +19,8 @@ body {
     display: flex;
     border-radius: 25px;
     box-shadow: 5px 5px 5px 5px rgb(71, 72, 72);
+    align-items: center;
+    
   }
 
 ol, li {
@@ -44,7 +48,12 @@ h1 {
   text-shadow: 2px 2px 4px #bbb7b7;
 }
 
-p{
-  text-align: right;
+.footerdiv {
+  margin: 0 auto;
 }
   
+.footerdiv2 {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
