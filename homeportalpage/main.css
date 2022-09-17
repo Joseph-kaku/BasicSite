@@ -14,8 +14,6 @@ body {
 
   header {
     background-color: #b1ccf3;
-    /*text-align: center;*/
-   /* padding: 20px; */
     display: flex;
     border-radius: 25px;
     box-shadow: 5px 5px 5px 5px rgb(71, 72, 72);
@@ -30,8 +28,6 @@ ol, li {
 footer {
   
   background-color: #b1ccf3;
-  /*text-align: center;*/
- /* padding: 20px; */
   display: flex;
   border-radius: 25px;
   box-shadow: 5px 5px 5px 5px rgb(71, 72, 72);
