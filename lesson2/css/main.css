@@ -5,7 +5,7 @@ img {
     padding: 30px;
     border: 40% solid;
     border-radius: 50px;
-    align-items: center;
+    /* align-items: center; */
     /* size: 10vh; */
 }
 
@@ -15,10 +15,12 @@ h1 {
 }
 
 h2 {
+    /* text-align: center; */
     color: rgb(10, 9, 9);
 }
 
 h3 {
+    /* text-align: center; */
     color: rgb(10, 9, 9);
 }
 
@@ -29,7 +31,7 @@ h3 {
 }
 
 body{
-    background-color: white;
+    background-color: aliceblue;
 }
 
 footer{
@@ -38,7 +40,7 @@ footer{
 
 @media only screen and (max-width: 700px) {
     body {
-      background-color: white;
+        background-color: aliceblue;
     }
     
     .grid{
@@ -48,15 +50,17 @@ footer{
     
   }
 
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 450px) {
     body {
-      background-color: white;
+        background-color: aliceblue;
     }
     
     .grid{
         display: grid;
         grid-template-columns: 1fr;
+        margin-left:0 auto;
     }
+
     
   }
   
