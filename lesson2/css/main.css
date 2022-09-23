@@ -1,37 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins&display=swap');
 
-img {
-    width: 40%;
-    padding: 30px;
-    border: 40% solid;
-    border-radius: 50px;
-    /* align-items: center; */
-    /* size: 10vh; */
-}
-
-h1 {
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     color: rgb(10, 9, 9);
 }
 
-h2 {
-    /* text-align: center; */
-    color: rgb(10, 9, 9);
+p{
+    text-align: center;
+     padding: 15px; 
+     line-height: 1.5em;
+     font-size: 1em;
 }
 
-h3 {
-    /* text-align: center; */
-    color: rgb(10, 9, 9);
+img {
+    display: block;
+    margin: 0 auto;
+    /* max-width: 40%;
+    padding: 20px;
+    border-radius: 50px; */
 }
 
-.grid {
+a{
+    color:black;
+}
+
+
+section{
+    display: block;
+    width: 65%;
+    margin: 0 auto;
+}
+
+img{
+    max-width: 400px;
+    width:90%;
+}
+hr{
+    margin-bottom: 30px;
+}
+
+/* .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-}
+} */
 
 /* .card{
-
+    display: block;
+    width: 100%;
+    margin: 0 auto;
 } */
 
 body{
@@ -42,29 +60,47 @@ footer{
     text-align: center;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (min-width: 700px) {
     body {
         background-color: aliceblue;
     }
     
-    .grid{
+    /* .grid{
         display: grid;
+        grid-gap: 45px;
+        grid-template-columns: 1fr 1fr;
+    } */ 
+    main{
+        display:grid;
+        grid-gap: 45px;
         grid-template-columns: 1fr 1fr;
     }
+
+    /* img {
+        max-width: 400px;
+        width:80%;
+    } */
     
   }
 
-  @media only screen and (max-width: 450px) {
+  @media only screen and (min-width: 1000px) {
     body {
         background-color: aliceblue;
     }
     
-    .grid{
+    /* .grid{
         display: grid;
         grid-template-columns: 1fr;
-        margin-left:0 auto;
     }
 
+    img {
+        max-width: 350px;
+        width:60%;
+    } */ 
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
     
   }
   
