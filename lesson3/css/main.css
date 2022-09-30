@@ -1,0 +1,8 @@
+nav{
+    display:flex;
+    flex-direction: row;
+    border-radius: 25px;
+    align-items: center;
+    justify-content:space-evenly;
+
+}
