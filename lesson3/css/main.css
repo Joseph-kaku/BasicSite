@@ -1,11 +1,18 @@
+
+
 nav{
     display:flex;
     flex-direction: row;
-    border-radius: 25px;
+    
     align-items: center;
     justify-content:space-evenly;
-
+    background-color: #8367C7;
 }
+
+a{
+    color: black;
+}
+
 
 h2, h3, h4, h5{
     /* align-items: center; */
