@@ -52,17 +52,24 @@ body{
     margin-right: 30px;
 }
 
-@media (min-width: 37.5em) {
+@media (min-width: 700px) {
 	nav {
-		flex-direction: row;
+        display: flex;
+		flex-direction: column;
 	}
 	
-	nav a {
+	nav {
 		font-size: 1.1rem;
 	}
-	main {
+	body {
 		grid-template-columns: 1fr 1fr 1fr;
 	}
 	
+}
+
+@media (min-width: 1000px) {
+	nav {
+		font-size: 1.3rem;
+	}
 }
 
