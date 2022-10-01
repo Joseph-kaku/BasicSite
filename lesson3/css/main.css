@@ -52,7 +52,7 @@ body{
     margin-right: 30px;
 }
 
-@media (min-width: 700px) {
+@media (max-width: 700px) {
 	nav {
         display: flex;
 		flex-direction: column;
@@ -67,7 +67,7 @@ body{
 	
 }
 
-@media (min-width: 1000px) {
+@media (max-width: 1000px) {
 	nav {
 		font-size: 1.3rem;
 	}
