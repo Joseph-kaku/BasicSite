@@ -1,9 +1,13 @@
 // const date_now = new Date();
+const datefield = document.querySelector(".date");
 
-// const full_date = new Intl.DateTimeFormat('en-US', {dateStyle: 'full'}).format(date_now);
+const now = new Date();
+const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(now);
 
 const hamburgerBtn = document.querySelector('.ham')
 const navigation = document.querySelector('.navigation')
+
+hamburgerBtn.addEventListener('click', () => {navigation.classList.toggle('responsive')});
 
 let date = new Date();
 let currentDate = document.lastModified;
@@ -11,3 +15,4 @@ let year = date.getFullYear();
 document.querySelector('.year').textContent = year;
 document.querySelector('.updated').textContent = currentDate;
 
+document.querySelector("#lastModified").textContent = `Last Modification: ${document.lastModified}`;
