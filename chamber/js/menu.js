@@ -4,10 +4,18 @@ const datefield = document.querySelector(".date");
 const now = new Date();
 const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(now);
 
-const hamburgerBtn = document.querySelector('.ham')
-const navigation = document.querySelector('.navigation')
+const hamburgerBtn = document.querySelector('.ham');
+const navigation = document.querySelector('.navigation');
 
-hamburgerBtn.addEventListener('click', () => {navigation.classList.toggle('responsive')});
+// hamburgerBtn.addEventListener('click', () => {navigation.classList.toggle('responsive')});
+
+
+function show()
+{
+    navigation.classList.toggle('gone')
+}
+
+hamburgerBtn.addEventListener('click', show);
 
 let date = new Date();
 let currentDate = document.lastModified;
