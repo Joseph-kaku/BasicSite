@@ -6,15 +6,24 @@ head, body, footer{
 
 img{
    width: 10%;
+  
 }
 
 .logos{
     width: 20%;
     float: right;
+    display: inline;
 }
 
 header {
     display: flex;
-    float: right;
-    align-items: center;
+    justify-content: center;
+}
+
+.gone {
+    display: none;
+}
+
+h2, h4, p{
+    text-align: center;
 }
