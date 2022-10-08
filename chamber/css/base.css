@@ -30,7 +30,7 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 24px;
-    background-color: bisque;
+    background-color: #F0FFF1;
     padding: 12px
 }
 
@@ -68,7 +68,7 @@ body {
     width: 80%;
     height: 80%;
     border-radius: 100%;
-    border: 1px solid green;
+    border: 1px solid #5603AD;
 }
 
 .media {
@@ -91,8 +91,8 @@ body {
 
 .date {
     display: block;
-    background-color: bisque;
-    border: 1px solid black;
+    background-color: #F0FFF1;
+    border: 0px solid black;
     padding: 8px;
     text-align: center;
 }
@@ -103,7 +103,7 @@ body {
     justify-content: center;
     align-items: center;
     border: 1px solid black;
-    background-color: bisque;
+    background-color: #F0FFF1;
 }
 
 .navigation a {
@@ -134,7 +134,7 @@ body {
 }
 
 .box {
-    border: 3px solid blue;
+    border: 3px solid #5603AD;
     width: 70%;
     height: 200px;
     margin: auto;
@@ -142,7 +142,7 @@ body {
 }
 
 .big-box {
-    border: 3px solid blue;
+    border: 3px solid #5603AD;
     width: 70%;
     height: 400px;
     margin: auto;
@@ -151,7 +151,7 @@ body {
 }
 
 .small-box {
-    border: 3px solid blue;
+    border: 3px solid #5603AD;
     width: 90%;
     height: 50%;
     margin: auto;
@@ -161,16 +161,18 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 12px;
-    background-color: bisque;
+    gap: 24px;
+    background-color: #F0FFF1;
 }
 
 .footer-text, .footerdiv {
     text-align: center;
 }
 
+
+
 .footerdiv {
-    background-color: bisque;
+    background-color: #F0FFF1;
 }
 
 .childbox3{
@@ -185,7 +187,76 @@ body {
 }
 
 .logo2 img{
-    width: 100%;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-top: 10px;
+    border: 1px solid #5603AD;
 }
 
 
+@media only screen and (max-width: 700px){
+    .headings{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+        background-color: bisque;
+        padding: 12px
+    }
+    
+    .logo-title {
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        gap: 16px;
+    }
+    
+    .icon-ham {
+        display: flex;
+        width: 30%;
+        align-items: center;
+        gap: 40px;
+        /* justify-content: space-around; */
+        clear: left;
+    }
+    
+    .ham {
+        border: none;
+        width: 30px;
+        height: 30px;
+        border-radius: 4px;
+        background-color: rgb(107, 145, 179);
+    }
+    
+    .logo1 {
+        width: 80px;
+        height: 80px;
+        
+    }
+    
+    .logo1 img {
+        width: 80%;
+        height: 80%;
+        border-radius: 100%;
+        border: 1px solid green;
+    }
+    
+    .media {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .media img {
+        width: 100%;
+        
+    }
+    
+    .social{
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+        gap: 4px;
+        
+    }
+}
