@@ -5,25 +5,51 @@ head, body, footer{
 } 
 
 img{
-   width: 10%;
-  
+    width: 10%;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+body {
+    background-color: #B3E9C7;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .logos{
     width: 20%;
-    float: right;
-    display: inline;
+    float: left;
+    display: block;
+    
 }
 
-.container{
+/* .container{
     display: grid;
     grid-template-columns: 3fr;
     align-content: center;
-}
+   
+} */
+
+/* ul a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+} */
 
 header {
+    text-align: center;
+    /* display: flex;
+    justify-content: center; */
+    background-color: #F0FFF1;
     display: flex;
-    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: #F0FFF1;
+    display: block;
+    align-items: center; 
 }
 
 .gone {
@@ -37,10 +63,17 @@ h2, h4, p{
 .box1, .box2, .box3, .box4, .box5, .childbox1, .childbox2, .childbox3{
     margin: auto;
     width: 50%;
-    border: 3px solid green;
-    /* padding: 10px; */
-    padding-top: 50px;
-    padding-bottom: 10px;
+    border: 3px solid #5603AD;
+    padding: 100px;
+    
+
+}
+
+.flow{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
 }
 
 .childbox3{
@@ -51,3 +84,5 @@ h2, h4, p{
     display: flex;
     justify-content: center;
 }
+
+
