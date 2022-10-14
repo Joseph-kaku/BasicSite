@@ -221,6 +221,13 @@ body {
     border: 1px solid #5603AD;
 }
 
+.mon-tues{
+    text-align: center;
+    background-color: #F0FFF1;
+    border: 1px solid black;
+    display:none;
+}
+
 
 @media only screen and (min-width: 700px){
     body {

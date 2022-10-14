@@ -25,4 +25,12 @@ let year = date.getFullYear();
 document.querySelector('.year').textContent = year;
 document.querySelector('.updated').textContent = currentDate;
 
-document.querySelector("#lastModified").textContent = `Last Modification: ${document.lastModified}`;
+document.querySelector(".updated").textContent = `Last Modification: ${document.lastModified}`;
+
+// Mon Tues announcement  
+const parent = document.querySelector('.mon-tues');
+
+if (now.getDay() == 1 || now.getDay() == 2) {
+    document.querySelector('.mon-tues'). 
+    style.display = 'block';
+}
