@@ -229,11 +229,11 @@ body {
 }
 
 .box1{
-    display:relative;
+    position:relative;
 }
 
 .button{
-    display: absolute;
+    position: absolute;
     right: 100px;
     bottom: 50px;
 }
