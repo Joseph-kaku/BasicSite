@@ -228,6 +228,16 @@ body {
     display:none;
 }
 
+.box1{
+    display:relative;
+}
+
+.button{
+    display: absolute;
+    right: 100px;
+    bottom: 50px;
+}
+
 
 @media only screen and (min-width: 700px){
     body {
