@@ -398,7 +398,7 @@ body {
         position: absolute;
     } */
 
-    /* .join-button{
+    .join-button{
         position: absolute;
         left: 200px;
         top: 1000px;
@@ -407,7 +407,7 @@ body {
         border-radius: 12px;
         padding: 10px 120px;
         align-items: center;
-    } */
+    }
     
 }
 
@@ -492,11 +492,19 @@ body {
         width: 100%;
     }
 
+    .box3 h2{
+        text-align: center;
+    }
+
+    .box3 p{
+        text-align: right;
+    }
+
     .box5{
         grid-column: 1 / 2;
         grid-row: 3 / 5;
         width: 100%;
-        /* position: relative; */
+        position: relative;
         /* height: 100%; */
     }
 
@@ -517,6 +525,14 @@ body {
     }
     
     .join-button{
-    display: none;
+    position: absolute;
+    top: 80px;
+    left: 65px;
+    font-size: smaller;
+    padding: 10px;
+    }
+
+    *{
+        font-size: small;
     }
 }
