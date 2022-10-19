@@ -232,11 +232,11 @@ body {
     display:none;
 }
 
-.box1{
+.hero{
     position:relative;
 }
 
-.box1 img {
+.hero img {
     position: absolute;
     left: 0px;
     top: 0px;
@@ -246,7 +246,7 @@ body {
     
 }
 
-.box1 p{
+.hero p{
     font-size: 30px;
     font-style: italic;
     color: #5603AD;
@@ -457,7 +457,7 @@ body {
         display: flex;
     }
 
-    .box1 {
+    .hero {
         grid-column: 2 / 2;
         grid-row: 1 / 3;
         width: 100%;
