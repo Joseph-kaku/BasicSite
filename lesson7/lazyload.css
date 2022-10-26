@@ -3,3 +3,6 @@ picture img{
     margin: 0 auto;
     padding: 5px;
 }
+::placeholder{
+    text-align: center;
+}
