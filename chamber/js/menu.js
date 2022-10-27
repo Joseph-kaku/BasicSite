@@ -50,3 +50,5 @@ if (temp < 50 && windspeed > 4.8) {
 }
 
 // calculate days since last visited
+
+// lazyload 
