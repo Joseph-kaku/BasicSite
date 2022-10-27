@@ -3,20 +3,19 @@ p{
 }
 
 img{
-    margin-bottom: 10px;
-    
+    /* margin-bottom: 10px; */
     height: 100%;
     width: 100%;
 }
 
 
 
-.pictureview{
+/* .pictureview{
     border: 1px solid #5603AD;
-}
+} */
 
 .square{
     border: 1px solid #5603AD;
-    /* height: 100%; */
+    
 }
 
