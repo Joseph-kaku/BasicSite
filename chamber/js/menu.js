@@ -51,4 +51,12 @@ if (temp < 50 && windspeed > 4.8) {
 
 // calculate days since last visited
 
+
+//if this fails change curr to current to test
+// let prevDate = 
+
+// let currDate = Date.now();
+
+// if 
+
 // lazyload 

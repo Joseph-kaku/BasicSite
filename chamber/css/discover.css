@@ -1,21 +1,30 @@
 p{
     text-align: center;
+    display: none;
 }
 
-img{
+.square img{
     /* margin-bottom: 10px; */
-    height: 100%;
-    width: 100%;
+    height: 80%;
+    width: 80%;
+    display: block;
+    margin: 10px auto;
 }
 
 
 
 /* .pictureview{
-    border: 1px solid #5603AD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 } */
 
-.square{
+/* .square{
     border: 1px solid #5603AD;
     
-}
+} */
+
+
 
