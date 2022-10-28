@@ -49,29 +49,5 @@ if (temp < 50 && windspeed > 4.8) {
     windchill.innerHTML = chill + '&#8457';
 }
 
-// calculate days since last visited
 
-if(!localStorage.getItem('lastvisit'))
-{
-    localStorage.setItem('lastvisit', Date.now());
-    document.getElementById('diff').textContent = 'This is your first visit';
-}
-else
-{
-    setStyles();
-}
-
-function setStyles()
-{
-    let prevDate = localStorage.getItem('lastvisit');
-    let currDate = new Date('2022-03-28');
-
-    let difference = currDate - prevDate;
-        console.log(difference);
-        let daysDifference = Math.floor(difference/1000/60/60/24);
-
-    document.getElementById('diff').textContent = daysDifference;
-
-    localStorage.setItem('lastvisit', Date.now());
-}
 // lazyload 
