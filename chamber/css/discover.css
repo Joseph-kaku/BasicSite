@@ -3,13 +3,37 @@ p{
     display: none;
 }
 
+.square{
+    position: relative;
+}
+
 .square img{
-    /* margin-bottom: 10px; */
-    height: 80%;
-    width: 80%;
+    height: auto;
+    width: 50%;
     display: block;
     margin: 10px auto;
 }
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(1, 1, 1, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 50%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 15px;
+    padding: 15px;
+    text-align: center;
+    align-items: right;
+    margin-left: 148px;
+}
+
+  .square:hover .overlay {
+    opacity: 1;
+  }
 
 .h1-text{
     text-align: center;
@@ -17,18 +41,12 @@ p{
     font-size: larger;
 }
 
-/* .pictureview{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+@media only screen and (min-width: 700px){
+
+}
+
+
+@media only screen and (min-width: 1000px){
     
-} */
-
-/* .square{
-    border: 1px solid #5603AD;
-    
-} */
-
-
+}
 
