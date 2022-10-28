@@ -48,6 +48,4 @@ if (temp < 50 && windspeed > 4.8) {
 
     windchill.innerHTML = chill + '&#8457';
 }
-
-
 // lazyload 
