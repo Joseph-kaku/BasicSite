@@ -46,14 +46,18 @@ p{
 .square img{
     width: 100%;
     height: 100%;
+    
 }
 
 .pictureview{
     display: grid;
     grid-template-columns: 1fr 1fr;  
-    grid-gap: 10px;
+    grid-gap: 5px;
+    margin-bottom: 20px;
 }
-
+footer{
+    margin-top: 10px;
+}
 /* .overlay{
     display: none;
 } */
@@ -68,9 +72,7 @@ p{
     grid-gap: 10px;
 }
 
-/* .overlay{
-    display: none;
-} */
+
 
 }
 
