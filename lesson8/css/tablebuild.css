@@ -18,9 +18,17 @@ table {
 
 caption {
   padding: 10px;
+  caption-side: top;
+  color: var(--back);
+  font-size: .85rem;
+}
+.cap2{
+  padding: 10px;
   caption-side: bottom;
-	color: var(--back);
-	font-size: .85rem;
+  color: var(--back);
+  font-size: .85rem;
+  border: 1px solid var(--borderlight);
+  background-color: var(--back2);
 }
 
 tr:first-child th, .highlight {
@@ -43,4 +51,8 @@ td {
 
 tbody tr:nth-child(even) {
 	background-color: var(--zebra);
+}
+
+tfoot{
+	text-align: center;
 }
