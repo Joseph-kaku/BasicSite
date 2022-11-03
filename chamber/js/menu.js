@@ -6,6 +6,7 @@ const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 
 datefield.innerHTML = `<em>${fulldate}</em>`;
 
+
 const hamburgerBtn = document.querySelector('.ham');
 const navigation = document.querySelector('.navigation');
 
