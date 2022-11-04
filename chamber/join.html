@@ -8,6 +8,7 @@
     <title>Join</title>
     <link href="/css/normalize.css" rel ="stylesheet">
     <link href="./css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/join.css">
 </head>
 
 <body>
@@ -53,6 +54,54 @@
         </ul>
     </div>
 
+    <form method="get" action="thankyou.html">
+        <label for="fname">First Name*: </label>
+        <input id="fname" type="text" name="firstname" required>
+        <label for="lname">Last Name*: </label>
+        <input id="lname" type="text" name="lastname" required>
+        <label for="title">Business Position Title* (Only letters, spaces and dashes. Must be 7 characters):</label>
+        <input id="title" type="text" name="title" pattern="[- A-Za-z]+" minlength="7"required>
+        <label for="email">Email: </label>
+        <input id="email" type="email" name="email" required>
+        <label for="phone">Cellphone: </label>
+        <input id="phone" type="tel" name="phone" required>
+        
+        <label id="member">Enter your membership</label>
+        <div id="radio">
+
+            <div class="radio">
+            <input type="radio" id="one" name="mlevel" value="level1">
+            <label for="one">Non-Profit</label>
+            </div>
+
+            <div class="radio">
+            <input type="radio" id="two" name="mlevel" value="level2">
+            <label for="two">Bronze</label>
+            </div>
+
+            <div class="radio">
+            <input type="radio" id="three" name="mlevel" value="level3">
+            <label for="three">Silver</label>
+            </div>
+
+            <div class="radio"></div>
+            <input type="radio" id="four" name="mlevel" value="level4">
+            <label for="four">Gold</label>
+            </div>
+
+
+        <label for="message">Business description:</label>
+        <textarea id="message" placeholder="your business description goes here"></textarea>
+
+        <input id="date" type="hidden" name="todaydate">
+
+        <input type="submit" value="Join the Chamber">
+
+    </form>
+
+    <div class="membership">
+        
+    </div>
 
     <footer>
         <div class="logo-text">

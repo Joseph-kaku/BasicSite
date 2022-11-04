@@ -51,3 +51,4 @@ if (temp < 50 && windspeed > 4.8) {
 }
 // lazyload 
 //Connected from lesson 7
+
