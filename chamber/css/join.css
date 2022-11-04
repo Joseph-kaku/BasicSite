@@ -46,21 +46,18 @@ li{
 
 @media only screen and (min-width: 700px){
     #flex{
-        font-size: 0.6em;
+        font-size: 0.7em;
         display: flex;
         flex-direction: row;
     }
 }
 
 @media only screen and (min-width: 1000px){
+    
     #flex{
         font-size: 0.5em;
         display: flex;
         flex-direction: row;
         margin-left: 0px;
     }
-
-    /* .membership{
-        margin-bottom: auto;
-    } */
 }
