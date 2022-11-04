@@ -26,7 +26,7 @@ label, input{
 }
 
 textarea{
-    height: 150px;
+    height: 100px;
     width: 300px;
     margin: 10px;
 }
@@ -59,4 +59,8 @@ li{
         flex-direction: row;
         margin-left: 0px;
     }
+
+    /* .membership{
+        margin-bottom: auto;
+    } */
 }
