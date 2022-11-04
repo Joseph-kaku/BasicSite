@@ -2,8 +2,17 @@ form{
     margin: 40px;
 }
 
-form input:required{
+form input:required:focus:invalid{
     border-left: red solid 6px;
+}
+
+form input:required:invalid{
+    border-left: red solid 6px;
+}
+
+
+form input:required:focus:valid{
+    border-left: green solid 6px;
 }
 
 form input:required:valid{
@@ -19,8 +28,35 @@ label, input{
 textarea{
     height: 150px;
     width: 300px;
+    margin: 10px;
 }
 
 #radio label, #radio input{
     display:inline;
+}
+
+li{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.membership{
+    margin: 40px;
+}
+
+@media only screen and (min-width: 700px){
+    #flex{
+        font-size: 0.6em;
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    #flex{
+        font-size: 0.5em;
+        display: flex;
+        flex-direction: row;
+        margin-left: 0px;
+    }
 }
