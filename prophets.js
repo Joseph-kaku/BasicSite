@@ -24,8 +24,10 @@ function displayProphets(item)
     let h2 = document.createElement('h2');
 
     h2.textContent = item.name + " " + item.lastname;
+    img.setAttribute('src', item.imageurl);
 
     card.appendChild(h2);
+    card.appendChild(img);
     document.querySelector('.cards').appendChild(card);
 }
 
