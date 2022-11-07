@@ -16,7 +16,7 @@ async function getProphets(requestURL)
     }
 };
 
-getProphets(requestURL);
+
 
 function displayProphets(item) 
 {
@@ -28,3 +28,5 @@ function displayProphets(item)
     card.appendChild(h2);
     document.querySelector('.cards').appendChild(card);
 }
+
+getProphets(requestURL);
