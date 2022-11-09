@@ -1,0 +1,11 @@
+{
+    "businesses" : [
+        {
+            "name":"",
+            "address":"",
+            "phone":"",
+            "website":"",
+            "image":""
+        }
+    ]
+}
