@@ -5,42 +5,42 @@
             "address":"160 W 2nd S #104, Rexburg, ID 83440",
             "phone":"208-359-2871",
             "website":"https://freemanclothing.com/",
-            "image":"chamber/images/Freeman-Logo.png"
+            "image":"chamber/images/Freeman-Logo.jpg"
         },
         {
             "name":"BYU-I University Relations",
             "address":"Biddulph Hall 323 Rexburg, ID 83440",
             "phone":" 208-496-3112",
             "website":"/www.byui.edu/university-relations",
-            "image":"chamber/images/byui.png"
+            "image":"chamber/images/byui.jpg"
         },
         {
             "name":"Development Workshop Inc.",
             "address":"275 Stattionary PL. Rexburg, ID 83440",
             "phone":"208-356-3722",
             "website":" https://www.dwinc.org",
-            "image":"chamber/images/development-workshop-inc.png"
+            "image":"chamber/images/development-workshop-inc.jpg"
         },
         {
             "name":"Grover Service Center",
             "address":"863 W Poleline rd Rexburg, ID 83440",
             "phone":"208-356-6085",
             "website":"https://www.groverservicecentre.net/",
-            "image":"chamber/images/grover-service.png"
+            "image":"chamber/images/grover-service.jpg"
         },
         {
             "name":"Home Care Pulse",
             "address":"346 Grand Loop STE 200 Rexburg, ID 83440",
             "phone":"208-356-7880",
             "website":"https://www.homecarepulse.com/",
-            "image":"chamber/images/home-care-pulse.png"
+            "image":"chamber/images/home-care-pulse.jpg"
         },
         {
             "name":"Pro Rental Services Inc.",
             "address":"174 E Moran View Rd Rexburg, ID 83440",
             "phone":"208-356-6026",
             "website":"https://www.prorentalsandsales.com",
-            "image":"chamber/images/rsz_pro-renta.png"
+            "image":"chamber/images/rsz_pro-renta.jpg"
         },
         {
             "name":"Sapien Designs",
@@ -54,28 +54,28 @@
             "address":"965 B East Lincon Rd Idaho Falls, ID 83401",
             "phone":"208-365-0263",
             "website":"https://www.servprorexburgrigby.com/",
-            "image":"chamber/images/rsz_1585092406472 2.png"
+            "image":"chamber/images/rsz_1585092406472 2.jpg"
         },
         {
             "name":"VFW Veterans Of Foreign Wars",
             "address":"Po Box 212 Rexburg, ID 83440",
             "phone":"909-238-1787",
             "website":"http://www.vfw3012.org/",
-            "image":"chamber/images/rsz_vfw.png"
+            "image":"chamber/images/rsz_vfw.jpg"
         },
         {
             "name":"Zagg Rexburg",
             "address":"510 N 2nd E Rexburg, ID 83440",
             "phone":"909-238-1787",
             "website":"www.zagg.com/en_us/store-finder/",
-            "image":"chamber/images/zagg-logo.png"
+            "image":"chamber/images/zagg-logo.jpg"
         },
         {
             "name":"Kiwi Loco - Rexburg",
             "address":"160 W 2nd S, Rexburg, ID 83440",
             "phone":"208-541-2904",
             "website":"https://www.kiwilocoyogurt.com/66/rexburg-home/",
-            "image":"chamber/images/kiwi-loco.png"
+            "image":"chamber/images/kiwi-loco.jpg"
         },
         {
             "name":"Crumbl Cookies",
@@ -89,7 +89,7 @@
             "address":"175 W 2nd S Ste 104, Rexburg, ID 83440",
             "phone":"208-478-3300",
             "website":"www.iccu.com/credit-union/rexburg-innovation-center",
-            "image":"chamber/images/rsz_iccu.png"
+            "image":"chamber/images/rsz_iccu.jpg"
         }
     ]   
 }
