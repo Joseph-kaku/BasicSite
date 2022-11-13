@@ -17,19 +17,19 @@ function displayCards(item)
     let h1 = document.createElement('h1');
     let p = document.createElement('p');
     let n = document.createElement('n')
-    let a = document.createElement('a');
+    let web  = document.createElement("a");
     // let img = document.createElement('img');
 
     h1.textContent = item.name;
     p.textContent = item.address;
     n.textContent = item.phone;
-    a.textContent = item.website;
+    web.setAttribute('href', item.website);
     // img.setAttribute('src', item.image);
 
     card.appendChild(h1);
     card.appendChild(p);
     card.appendChild(n);
-    card.appendChild(a);
+    card.appendChild(web);
 
     // card.appendChild(img);
 
