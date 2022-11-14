@@ -36,5 +36,16 @@ function displayCards(item)
     document.querySelector('.cards').appendChild(card);
 }
 
+// function displayList(item) {
+//     let row = document.createElement('td');
+
+//     row.textContent = item.name
+
+//     list.appendChild(td);
+
+//     document.querySelector('.list').appendChild(list)
+// }
+
+
 getBusiness(requestURL);
 
