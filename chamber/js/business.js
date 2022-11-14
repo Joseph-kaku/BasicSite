@@ -14,21 +14,21 @@ async function getBusiness(requestURL)
 function displayCards(item)
 {
     let card = document.createElement('section');
-    let h1 = document.createElement('h1');
-    let p = document.createElement('p');
-    let n = document.createElement('n')
+    let businessname = document.createElement('h1');
+    let addy = document.createElement('p');
+    let phone = document.createElement('p')
     let web  = document.createElement("a");
     // let img = document.createElement('img');
 
-    h1.textContent = item.name;
-    p.textContent = item.address;
-    n.textContent = item.phone;
+    businessname.textContent = item.name;
+    addy.textContent = item.address;
+    phone.textContent = item.phone;
     web.setAttribute('href', item.website);
     // img.setAttribute('src', item.image);
 
-    card.appendChild(h1);
-    card.appendChild(p);
-    card.appendChild(n);
+    card.appendChild(businessname);
+    card.appendChild(addy);
+    card.appendChild(phone);
     card.appendChild(web);
 
     // card.appendChild(img);
