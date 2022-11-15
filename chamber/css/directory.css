@@ -21,8 +21,8 @@
 }
 
 .cards section {
-    border: 1px solid navy;
-    background-color: lightblue;
+    border: 1px solid #5603AD;
+    background-color: #F0FFF1;
     padding: 30px;
     text-align: center;
     /* width: 380px; */
