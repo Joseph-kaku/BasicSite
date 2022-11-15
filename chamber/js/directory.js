@@ -14,37 +14,33 @@ async function getBusiness(requestURL)
 function displayCards(item)
 {
     let card = document.createElement('section');
-    let businessname = document.createElement('h1');
+    // let businessname = document.createElement('h1');
     let addy = document.createElement('p');
     let phone = document.createElement('p')
-    let web  = document.createElement("a");
+    let web  = document.createElement('p');
+
+    let tr = document.createElement('tr');
+    let td = document.createElement('td');
     // let img = document.createElement('img');
 
-    businessname.textContent = item.name;
+    web.innerHTML = `<a href="${item.website}">${item.website}</a>`
+
+    // img.setAttribute('src', item.image);
+    // img.setAttribute('alt', item.name + 'img');
+
     addy.textContent = item.address;
     phone.textContent = item.phone;
-    web.setAttribute('href', item.website);
-    // img.setAttribute('src', item.image);
 
-    card.appendChild(businessname);
     card.appendChild(addy);
     card.appendChild(phone);
     card.appendChild(web);
 
-    // card.appendChild(img);
+    tr.innerHTML = `<td>${item.name}</td><td>${item.address}</td><td>${item.phone}</td><td><a href=${item.website}>${item.website}</a></td>`
+
 
     document.querySelector('.cards').appendChild(card);
+    document.querySelector('.list').appendChild(list);
 }
-
-// function displayList(item) {
-//     let row = document.createElement('td');
-
-//     row.textContent = item.name
-
-//     list.appendChild(td);
-
-//     document.querySelector('.list').appendChild(list)
-// }
 
 
 getBusiness(requestURL);
