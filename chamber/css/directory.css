@@ -18,10 +18,7 @@
 h1 {
     text-align: center;
 }
-/* img {
-    width: 90%;
-    box-shadow: 5px 10px 8px 5px #888888;
-} */
+
 
 
 
@@ -29,19 +26,14 @@ footer{
     text-align: center;
 }
 
-.directory-btns{
+.directorybtn{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 100px;
 }
 
+.directorybtn button {
+    padding: 40px;
 
-#directory-list, #directory-card{
-    /* position: absolute; */
-    /* right: 20px;
-    bottom: 20px; */
-    font-size: 24px;
-    /* border-radius: 12px; */
-    padding: 10px;
 }
