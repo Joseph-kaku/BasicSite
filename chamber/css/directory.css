@@ -44,7 +44,7 @@ h1 {
 }
 
 .list section:nth-child(odd) {
-    background-color: #c9e9d5;
+    background-color: #F0FFF1;
 }
 
 .directorybtn {
@@ -71,12 +71,12 @@ footer{
 }
 
 
-/* .cards img {
+.cards img {
     height: 100px;
     width: 200px;
     object-fit: contain;
     padding: 10px;
-} */
+}
 
 
 @media only screen and (min-width: 700px){
