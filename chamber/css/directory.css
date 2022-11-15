@@ -1,10 +1,23 @@
 .cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* align-items: center;
+    text-align: center;
+    justify-content: center; */
+    gap: 20px; 
+    margin-bottom: 40px;
+}
+
+.list {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-    text-align: center;
-    justify-content: center;
+}
+
+.directview{
+    width:100%;
+}
+.cards, .list {
+    width: 100%;
 }
 
 .cards section {
@@ -12,11 +25,30 @@
     background-color: lightblue;
     padding: 30px;
     text-align: center;
-    width: 380px;
-    margin: 20px;
+    /* width: 380px; */
+    /* margin: 20px; */
+    
 }
+
 h1 {
     text-align: center;
+}
+
+
+.list section{
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.list section p {
+    width: 150px;
+}
+
+.list section:nth-child(odd) {
+    background-color: #c9e9d5;
+}
+
+.directorybtn {
+    margin-bottom: 40px;
 }
 
 
@@ -34,6 +66,45 @@ footer{
 }
 
 .directorybtn button {
-    padding: 40px;
+    padding: 15px;
+
+}
+
+
+/* .cards img {
+    height: 100px;
+    width: 200px;
+    object-fit: contain;
+    padding: 10px;
+} */
+
+
+@media only screen and (min-width: 700px){
+    div.cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    
+    }
+
+    .list section {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        align-items: right;
+        margin-bottom: 20px;
+        min-height: 50px;
+        
+    }
+    
+}
+
+
+@media only screen and (min-width: 1000px) {
+
+div.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
 
 }
