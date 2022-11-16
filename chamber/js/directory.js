@@ -29,11 +29,12 @@ function displayCards(item)
     addy.textContent = item.address;
     phone.textContent = item.phone;
 
+    card.appendChild(img);
     card.appendChild(businessname);
     card.appendChild(addy);
     card.appendChild(phone);
     card.appendChild(web);
-    card.appendChild(img)
+    
 
    
 
