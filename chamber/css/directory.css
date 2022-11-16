@@ -41,6 +41,11 @@ h1 {
 }
 .list section p {
     width: 150px;
+    
+}
+
+.list section img {
+    display: none;
 }
 
 .list section:nth-child(odd) {
