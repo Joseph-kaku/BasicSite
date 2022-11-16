@@ -18,12 +18,12 @@ function displayCards(item)
     let addy = document.createElement('p');
     let phone = document.createElement('p')
     let web  = document.createElement('p');
-    // let img = document.createElement('img');
+    let img = document.createElement('img');
 
     web.innerHTML = `<a href="${item.website}">${item.website}</a>`
 
-    // img.setAttribute('src', item.image);
-    // img.setAttribute('alt', item.name + 'img');
+    img.setAttribute('src', item.image);
+    img.setAttribute('alt', item.name + 'img');
 
     businessname.textContent = item.name;
     addy.textContent = item.address;
@@ -33,6 +33,7 @@ function displayCards(item)
     card.appendChild(addy);
     card.appendChild(phone);
     card.appendChild(web);
+    card.appendChild(img)
 
    
 
