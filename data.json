@@ -40,56 +40,56 @@
             "address":"174 E Moran View Rd Rexburg, ID 83440",
             "phone":"208-356-6026",
             "website":"https://www.prorentalsandsales.com",
-            "image":"https://joseph-kaku.github.io/wdd230/"
+            "image":"https://joseph-kaku.github.io/wdd230/chamber/images/prorental-logo.png"
         },
         {
             "name":"Sapien Designs",
             "address":" 50 Collage Ave Suite 101 Rexburg, ID 83440",
             "phone":"208-932-7287",
             "website":"https://www.sapiendesigns.com/",
-            "image":"https://joseph-kaku.github.io/wdd230/"
+            "image":"https://joseph-kaku.github.io/wdd230/chamber/images/sapiendesigns-logo.png"
         },
         {
             "name":"ServPro of Rexburg/Ribgy",
             "address":"965 B East Lincon Rd Idaho Falls, ID 83401",
             "phone":"208-365-0263",
             "website":"https://www.servprorexburgrigby.com/",
-            "image":"https://joseph-kaku.github.io/wdd230/"
+            "image":"https://joseph-kaku.github.io/wdd230/chamber/images/ServProofRexburg:Ribgy-logo.png"
         },
         {
             "name":"VFW Veterans Of Foreign Wars",
             "address":"Po Box 212 Rexburg, ID 83440",
             "phone":"909-238-1787",
             "website":"http://www.vfw3012.org/",
-            "image":"https://joseph-kaku.github.io/wdd230/"
+            "image":"https://joseph-kaku.github.io/wdd230/chamber/images/VFWVeterans OfForeignWars-logo.png"
         },
         {
             "name":"Zagg Rexburg",
             "address":"510 N 2nd E Rexburg, ID 83440",
             "phone":"909-238-1787",
             "website":"www.zagg.com/en_us/store-finder/",
-            "image":"https://joseph-kaku.github.io/wdd230/"
+            "image":"https://joseph-kaku.github.io/wdd230/chamber/images/zagg-logo.png"
         },
         {
             "name":"Kiwi Loco - Rexburg",
             "address":"160 W 2nd S, Rexburg, ID 83440",
             "phone":"208-541-2904",
             "website":"https://www.kiwilocoyogurt.com/66/rexburg-home/",
-            "image":"https://joseph-kaku.github.io/wdd230/"
+            "image":"https://joseph-kaku.github.io/wdd230/chamber/images/kiwi-loco-logo.png"
         },
         {
             "name":"Crumbl Cookies",
             "address":"160 W 2nd S Ste 102, Rexburg, ID 83440",
             "phone":"208-254-5556",
             "website":"www.crumblcookies.com/rexburg",
-            "image":"https://joseph-kaku.github.io/wdd230/"
+            "image":"https://joseph-kaku.github.io/wdd230/chamber/images/Crumbl-Cookies-logo.jpeg"
         },
         {
             "name":"Idaho Central Credit Union",
             "address":"175 W 2nd S Ste 104, Rexburg, ID 83440",
             "phone":"208-478-3300",
             "website":"www.iccu.com/credit-union/rexburg-innovation-center",
-            "image":"https://joseph-kaku.github.io/wdd230/"
+            "image":"https://joseph-kaku.github.io/wdd230/chamber/images/iccu-logo.jpeg"
         }
     ]   
 }
