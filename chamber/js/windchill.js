@@ -1,5 +1,5 @@
 // calculate the windchill 
-const temp = document.querySelector('#t').textContent;
+const temp = document.querySelector('#current-temp').textContent;
 const windspeed = document.querySelector('#ws').textContent;
 
 if (temp < 50 && windspeed > 4.8) {
