@@ -295,6 +295,8 @@ li{
     text-align: center;
 }
 
+
+
 .box6{
     background-color: #d8e3da;
 }
@@ -511,7 +513,6 @@ li{
         position: relative;
         /* height: 100%; */
     }
-
     
     .navigation{
         display: flex;
@@ -530,8 +531,8 @@ li{
     
     .join-button{
     position: absolute;
-    top: 80px;
-    left: 65px;
+    top: 150px;
+    left: 2px;
     font-size: smaller;
     padding: 10px;
     }
