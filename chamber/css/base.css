@@ -330,7 +330,20 @@ li{
     height: 100%;
 }
 
+.childbox1 img {
+    width: 100%;
+    height: 100%;
+}
 
+.childbox2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.childbox3 img {
+    width: 100%;
+    height: 100%;
+}
 
 @media only screen and (min-width: 700px){
     body {
