@@ -322,6 +322,7 @@ li{
 .box5 img {
     width: 100%;
     height: 100%;
+    object-fit: fill;
 }
 
 .box2 img {
@@ -425,7 +426,7 @@ li{
 
     .join-button{
         position: absolute;
-        left: 200px;
+        left: 260px;
         top: 1000px;
         font-size: 30px;
         margin: 2px;
