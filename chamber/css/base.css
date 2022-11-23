@@ -7,21 +7,13 @@
     box-sizing: border-box;
 }
 
-
-
 head, body, footer{
-    /* font-family: 'Inconsolata', monospace; */
     font-family: 'Merriweather', serif;
 } 
 
 h3 {
     text-align: center;
 }
-/* img{
-    width: 10%;
-    border-radius: 25px;
-    padding: 10px;
-} */
 
 body {
     background-color: #B3E9C7;
@@ -29,10 +21,6 @@ body {
     margin: 0 auto;
     font-size: 12px;
 }
-/* 
-li{
-    list-style: none;
-} */
 
 .headings{
     display: flex;
@@ -46,7 +34,6 @@ li{
 .logo-title {
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     gap: 16px;
 }
 
@@ -55,7 +42,6 @@ li{
     width: 30%;
     align-items: center;
     gap: 8px;
-    /* justify-content: space-around; */
     clear: left;
 }
 
@@ -70,7 +56,6 @@ li{
 .logo1 {
     width: 80px;
     height: 80px;
-    
 }
 
 .logo1 img {
@@ -87,15 +72,12 @@ li{
 
 .media img {
     width: 100%;
-    
 }
 
 .social{
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
     gap: 4px;
-    
 }
 
 .date {
@@ -113,7 +95,6 @@ li{
     align-items: center;
     border: 1px solid black;
     background-color: #F0FFF1;
-    /* list-style: none; */
 }
 
 .navigation a {
@@ -155,7 +136,7 @@ li{
 }
 
 .big-box {
-    border: 3px solid #5603AD;
+    border: 1px solid #5603AD;
     width: 70%;
     height: 400px;
     margin: auto;
@@ -164,7 +145,7 @@ li{
 }
 
 .small-box {
-    border: 2px solid #5603AD;
+    border: 1px solid #5603AD;
     width: 90%;
     height: 50%;
     margin: auto;
@@ -203,8 +184,6 @@ li{
     text-align: center;
 }
 
-
-
 .footerdiv {
     background-color: #F0FFF1;
 }
@@ -222,8 +201,6 @@ li{
     height: 50px;
     display: flex;
     margin: 8px
-    /* justify-content: center; */
-    /* align-items: center; */
 }
 
 .logo2 img{
@@ -285,8 +262,6 @@ li{
     text-align: center;
 }
 
-
-
 .box3 h2{
     text-align: right;
 }
@@ -298,12 +273,9 @@ li{
     text-align: center;
 }
 
-
-
 .box6{
     background-color: #d8e3da;
 }
-
 
 .button{
     position: absolute;
@@ -314,15 +286,9 @@ li{
     padding: 10px;
 }
 
-/* #j-img {
-    object-fit: fill; 
-    z-index: -1;
-} */
-
 .box5 img {
     width: 100%;
     height: 100%;
-    object-fit: fill;
 }
 
 .box2 img {
@@ -468,6 +434,25 @@ li{
         margin: 0;
     }
 
+    div.hero.box {
+        border: 1px solid #5603AD;
+    }
+
+    div.box2 {
+        border: 1px solid #5603AD;
+    }
+
+    div.box3 {
+        border: 1px solid #5603AD;
+    }
+
+    div.box4 {
+        border: 1px solid #5603AD;
+    }
+
+    div.box5 {
+        border: 1px solid #5603AD;
+    }
     /* .event-weather {
         grid-column-start: 1;
         grid-row-start: 1;
@@ -501,7 +486,6 @@ li{
         grid-row: 1 / 3;
         width: 100%;
         height: 100%;
-        /* height: 100%; */
     }
 
     .box4 {
@@ -515,7 +499,6 @@ li{
         grid-column: 3 / 4;
         grid-row: 1 / 5;
         flex-direction: column;
-        /* gap: 0; */
         width: 100%;
         height: 100%;
         padding: 0;
@@ -544,7 +527,6 @@ li{
         grid-row: 3 / 5;
         width: 100%;
         position: relative;
-        /* height: 100%; */
     }
     
     .navigation{
