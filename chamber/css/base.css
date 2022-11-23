@@ -342,24 +342,16 @@ body {
         grid-row-start: 6;
     }
 
-    /* .event-weather {
-        display: flex;
-        gap: 12px;
-        margin: 0 auto;
-        width: 70%;
-    } */
-
     .icon-ham {
         display: flex;
         width: 30%;
         align-items: center;
         gap: 90px;
-        /* justify-content: space-around; */
         clear: left;
     }
 
     .box {
-        border: 3px solid #5603AD;
+        border: 1px solid #5603AD;
         width: 70%;
         height: 200px;
         margin: auto;
@@ -398,10 +390,6 @@ body {
         text-align: left;
         margin-left: 18px;
     }
-
-    /* .box5{
-        position: absolute;
-    } */
 
     .join-button{
         position: absolute;
