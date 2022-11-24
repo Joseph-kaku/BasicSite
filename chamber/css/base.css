@@ -126,7 +126,6 @@ body {
 }
 
 .box {
-    /* position: relative; */
     border: 1px solid #5603AD;
     width: 70%;
     height: 200px;
