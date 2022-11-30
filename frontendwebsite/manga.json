@@ -1,79 +1,73 @@
 {
     "manga" : [
         {
-            "name":"",
+            "name":"Naruto",
             "author":"",
             "volume":"",
             "image":""
         },
         {
-            "name":"",
+            "name":"Bleach",
             "author":"",
             "volume":"",
             "image":""
         },
         {
-            "name":"",
+            "name":"One Piece",
             "address":"",
             "volume":"",
             "image":""
         },
         {
-            "name":"",
+            "name":"Death Note",
             "author":"",
             "volume":"",
             "image":""
         },
         {
-            "name":"",
+            "name":"Blue Lock",
             "author":"",
             "volume":"",
             "image":""
         },
         {
-            "name":"",
+            "name":"Demon Slayer",
             "author":"",
             "volume":"",
             "image":""
         },
         {
-            "name":"",
+            "name":"Hunter X Hunter",
             "author":"",
             "volume":"",
             "image":""
         },
         {
-            "name":"",
+            "name":"Jujutsu Kaisen",
             "author":"",
             "volume":"",
             "image":""
         },
         {
-            "name":"",
+            "name":"Attack on Titan",
             "author":"",
             "volume":"",
             "image":""
         },
         {
-            "name":"",
+            "name":"One Punch Man",
             "author":"",
             "volume":"",
             "image":""
         },
         {
-            "name":"",
+            "name":"Spy X Family",
             "author":"",
             "volume":"",
             "image":""
         },
         {
-            "name":"",
-            "author":"",
-            "volume":"",
-            "image":""
-        },
-        {
-            "name":"",
+            "name":"Vinland Saga",
             "author":"",
             "volume":"",
             "image":""
