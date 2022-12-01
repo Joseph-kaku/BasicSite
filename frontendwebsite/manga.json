@@ -2,75 +2,75 @@
     "manga" : [
         {
             "name":"Naruto",
-            "author":"",
-            "volume":"",
-            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/"
+            "author":"Masashi Kishimoto",
+            "volume":"Volume 72",
+            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/naruto.png"
         },
         {
             "name":"Bleach",
-            "author":"",
-            "volume":"",
-            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/"
+            "author":"Tite Kubo",
+            "volume":"Volume 49",
+            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/bleach.png"
         },
         {
             "name":"One Piece",
-            "address":"",
-            "volume":"",
-            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/"
+            "author":"Eiichiro Oda",
+            "volume":"Volume 100",
+            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/onepiece.png"
         },
         {
             "name":"Death Note",
-            "author":"",
-            "volume":"",
-            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/"
+            "author":"Tsugumi Ohba",
+            "volume":"Volume 7",
+            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/deathnote.png"
         },
         {
             "name":"Blue Lock",
-            "author":"",
-            "volume":"",
-            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/"
+            "author":"Yusuke Nomura",
+            "volume":"Volume 1",
+            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/bluelock.png"
         },
         {
             "name":"Demon Slayer",
-            "author":"",
-            "volume":"",
-            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/"
+            "author":"Koyoharu Gotouge",
+            "volume":"Volume 8",
+            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/demonslayer.png"
         },
         {
             "name":"Hunter X Hunter",
-            "author":"",
-            "volume":"",
-            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/"
+            "author":"Yoshihiro Togashi",
+            "volume":"Volume 10",
+            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/hunterhunter.png"
         },
         {
             "name":"Jujutsu Kaisen",
-            "author":"",
-            "volume":"",
-            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/"
+            "author":"Gege Akutami",
+            "volume":"Volume 2",
+            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/jujutsukaisen.png"
         },
         {
             "name":"Attack on Titan",
-            "author":"",
-            "volume":"",
-            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/"
+            "author":"Hajime Isayama",
+            "volume":"Volume 22",
+            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/aot.png"
         },
         {
             "name":"One Punch Man",
-            "author":"",
-            "volume":"",
-            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/"
+            "author":"ONE & Yusuke Murata",
+            "volume":"Volume 23",
+            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/onepunchman.png"
         },
         {
             "name":"Spy X Family",
-            "author":"",
-            "volume":"",
-            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/"
+            "author":"Tatsuya Endo",
+            "volume":"Volume 2",
+            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/spyfamily.png"
         },
         {
             "name":"Vinland Saga",
-            "author":"",
-            "volume":"",
-            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/"
+            "author":"Yukimura Makoto",
+            "volume":"Volume 24",
+            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/vinlandsaga.png"
         }
     ]   
 }
