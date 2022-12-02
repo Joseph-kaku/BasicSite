@@ -71,6 +71,12 @@
             "author":"Yukimura Makoto",
             "volume":"Volume 24",
             "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/vinlandsaga.png"
+        },
+        {
+            "name":"Haikyuu",
+            "author":"Haruichi Furudate",
+            "volume":"Volume 33",
+            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/haikyuu.png"
         }
     ]   
 }
