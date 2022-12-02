@@ -2,7 +2,10 @@
 
 *{
     font-family: 'Quicksand', sans-serif;
-    background-color: #0C0032;
+}
+
+body{
+  background-color: #0C0032;
 }
 
 nav{
@@ -21,18 +24,19 @@ nav a {
     color: white;
 }
 
-
+/* icon for site */
 
 .mreaders img {
     width: 5%;
     border-radius: 60%;
+    margin: 10px;
 }
 
 * {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 400px;
   position: relative;
   margin: auto;
 }
@@ -40,6 +44,13 @@ nav a {
 /* Hide the images by default */
 .mySlides {
   display: none;
+}
+
+/* match the .slideshow-container for the image */
+
+.mySlides img {
+  width: 100%;
+  height: auto;
 }
 
 /* Next & previous buttons */
@@ -96,6 +107,7 @@ nav a {
   height: 15px;
   width: 15px;
   margin: 0 2px;
+  margin-bottom: 20px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
@@ -117,3 +129,30 @@ nav a {
   to {opacity: 1}
 }
 
+
+/* share box */
+
+.sharebox {
+  /* border: 1px solid white; */
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  background-image: url("https://dummyimage.com/300x400/ccc/fff");
+  border-radius: 10px;
+}
+
+.share-button {
+  color: #190061;
+}
+
+/* footer */
+
+.foot {
+  color: white;
+  text-align: center;
+  /* border: 1px solid white; */
+  /* background-color: black; */
+}
