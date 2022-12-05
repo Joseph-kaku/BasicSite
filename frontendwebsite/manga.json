@@ -77,6 +77,18 @@
             "author":"Haruichi Furudate",
             "volume":"Volume 33",
             "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/haikyuu.png"
+        },
+        {
+            "name":"My Hero Academia",
+            "author":"Kohei Horikoshi",
+            "volume":"Volume 35",
+            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/mha.png"
+        },
+        {
+            "name":"Chainsaw Man",
+            "author":"Tatsuki Fujimoto",
+            "volume":"Volume 11",
+            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/chainsawman.png"
         }
     ]   
 }
