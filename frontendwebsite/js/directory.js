@@ -14,6 +14,8 @@ async function getBusiness(requestURL)
 function displayCards(item)
 {
     let card = document.createElement('section');
+    let manganame = document.createElement('h3');
+
     
 
     // web.innerHTML = `<a href="${item.website}">${item.website}</a>`
@@ -25,6 +27,7 @@ function displayCards(item)
    
 
     card.appendChild(img);
+    card.appendChild(manganame);
    
     
 
