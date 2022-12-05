@@ -41,10 +41,10 @@ h1 {
 .list section{
     margin-bottom: 20px;
     padding: 10px;
+    color: white;
 }
 .list section p {
     width: 150px;
-    
 }
 
 .list section img {
@@ -52,7 +52,7 @@ h1 {
 }
 
 .list section:nth-child(odd) {
-    background-color: #F0FFF1;
+    background-color: #282828;
 }
 
 .directorybtn {
