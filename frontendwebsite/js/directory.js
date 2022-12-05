@@ -15,7 +15,9 @@ function displayCards(item)
 {
     let card = document.createElement('section');
     let manganame = document.createElement('h3');
-
+    let author = document.createElement('p');
+    let volume = document.createElement('p');
+    let img = document.createElement('img');
     
 
     // web.innerHTML = `<a href="${item.website}">${item.website}</a>`
@@ -24,14 +26,14 @@ function displayCards(item)
     img.setAttribute('alt', item.name + 'img');
 
     manganame.textContent = item.name;
+    author.textContent = item.author;
+    volume.textContent = item.volume;
    
 
     card.appendChild(img);
     card.appendChild(manganame);
-   
-    
-
-   
+    card.appendChild(author);
+    card.appendChild(volume);
 
 
     document.querySelector('.cards').appendChild(card);

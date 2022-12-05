@@ -23,11 +23,12 @@
 
 .cards section {
     border: 1px solid #5603AD;
-    background-color: #F0FFF1;
+    background-color: #282828;
     padding: 30px;
     text-align: center;
     /* width: 380px; */
     /* margin: 20px; */
+    color: white;
     
 }
 
@@ -77,14 +78,14 @@ footer{
 
 
 .cards img {
-    height: 100px;
+    height: 300px;
     width: 200px;
     object-fit: contain;
     padding: 10px;
 }
 
 
-/* @media only screen and (min-width: 700px){
+@media only screen and (min-width: 700px){
     div.cards {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -112,4 +113,4 @@ div.cards {
 }
 
 
-} */
+}
