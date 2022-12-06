@@ -4,91 +4,106 @@
             "name":"Naruto",
             "author":"Masashi Kishimoto",
             "volume":"Volume 72",
-            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/naruto.png"
+            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/naruto.png",
+            "sales":""
         },
         {
             "name":"Bleach",
             "author":"Tite Kubo",
             "volume":"Volume 49",
-            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/bleach.png"
+            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/bleach.png",
+            "sales":""
         },
         {
             "name":"One Piece",
             "author":"Eiichiro Oda",
             "volume":"Volume 100",
-            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/onepiece.png"
+            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/onepiece.png",
+            "sales":""
         },
         {
             "name":"Death Note",
             "author":"Tsugumi Ohba",
             "volume":"Volume 7",
-            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/deathnote.png"
+            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/deathnote.png",
+            "sales":""
         },
         {
             "name":"Blue Lock",
             "author":"Yusuke Nomura",
             "volume":"Volume 1",
-            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/bluelock.png"
+            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/bluelock.png",
+            "sales":""
         },
         {
             "name":"Demon Slayer",
             "author":"Koyoharu Gotouge",
             "volume":"Volume 8",
-            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/demonslayer.png"
+            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/demonslayer.png",
+            "sales":""
         },
         {
             "name":"Hunter X Hunter",
             "author":"Yoshihiro Togashi",
             "volume":"Volume 10",
-            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/hunterhunter.png"
+            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/hunterhunter.png",
+            "sales":""
         },
         {
             "name":"Jujutsu Kaisen",
             "author":"Gege Akutami",
             "volume":"Volume 2",
-            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/jujutsukaisen.png"
+            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/jujutsukaisen.png",
+            "sales":""
         },
         {
             "name":"Attack on Titan",
             "author":"Hajime Isayama",
             "volume":"Volume 22",
-            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/aot.png"
+            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/aot.png",
+            "sales":""
         },
         {
             "name":"One Punch Man",
             "author":"ONE & Yusuke Murata",
             "volume":"Volume 23",
-            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/onepunchman.png"
+            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/onepunchman.png",
+            "sales":""
         },
         {
             "name":"Spy X Family",
             "author":"Tatsuya Endo",
             "volume":"Volume 2",
-            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/spyfamily.png"
+            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/spyfamily.png",
+            "sales":""
         },
         {
             "name":"Vinland Saga",
             "author":"Yukimura Makoto",
             "volume":"Volume 24",
-            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/vinlandsaga.png"
+            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/vinlandsaga.png",
+            "sales":""
         },
         {
             "name":"Haikyuu",
             "author":"Haruichi Furudate",
             "volume":"Volume 33",
-            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/haikyuu.png"
+            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/haikyuu.png",
+            "sales":""
         },
         {
             "name":"My Hero Academia",
             "author":"Kohei Horikoshi",
             "volume":"Volume 35",
-            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/mha.png"
+            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/mha.png",
+            "sales":""
         },
         {
             "name":"Chainsaw Man",
             "author":"Tatsuki Fujimoto",
             "volume":"Volume 11",
-            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/chainsawman.png"
+            "image":"https://joseph-kaku.github.io/wdd230/frontendwebsite/images/chainsawman.png",
+            "sales":""
         }
     ]   
 }
