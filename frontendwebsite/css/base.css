@@ -40,7 +40,9 @@ nav a {
     text-decoration: none;
     color: white;
 }
-
+header, nav{
+  background-color: #282828;
+}
 /* icon for site */
 
 .mreaders img {
@@ -171,5 +173,5 @@ nav a {
   color: white;
   text-align: center;
   border: 1px solid white;
-  /* background-color: black; */
+  background-color: #282828;
 }
