@@ -8,45 +8,59 @@ body{
   background-color: #0C0032;
 }
 
-nav{
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content:space-evenly;
-    background-color: #0C0032;
-    /* margin-top: 30px;
-    margin-left: 30px;
-    margin-right: 30px; */
-    /* margin-bottom: 20px; */
-    
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
 }
 
-/* .ham {
-  border: none;
-  width: 30px;
-  height: 30px;
-  border-radius: 4px;
-  background-color: white;
-} */
-
-
-
-header {
-  border: 1px solid white;
-  margin-bottom: 20px;
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
 }
 
-nav a {
-    text-decoration: none;
-    color: white;
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
 }
-header, nav{
-  background-color: #282828;
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
 }
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+.ham {
+	display:flex;
+  justify-content:center;
+  color:white;
+  margin-bottom: 30px;
+}
+
+
 /* icon for site */
 
 .mreaders img {
-    width: 5%;
+    width: 10%;
     border-radius: 60%;
     margin: 10px;
 }
@@ -174,4 +188,48 @@ header, nav{
   text-align: center;
   border: 1px solid white;
   background-color: #282828;
+}
+
+
+@media only screen and (min-width: 700px){
+
+/* .ham{
+  display:none;
+} */
+  .overlay-content{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    background-color: #0C0032;
+    
+}
+
+.overlay-content a {
+  text-decoration: none;
+  color: white;
+}
+
+}
+
+@media only screen and (min-width: 1000px){
+  
+  /* .ham{
+    display:none;
+  } */
+
+  .overlay-content{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    background-color: #0C0032;
+    
+}
+
+.overlay-content a {
+  text-decoration: none;
+  color: white;
+}
+
 }
