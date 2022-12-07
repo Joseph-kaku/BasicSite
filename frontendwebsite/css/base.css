@@ -8,6 +8,10 @@ body{
   background-color: #0C0032;
 }
 
+nav{
+  display: none;
+}
+
 .overlay {
   height: 100%;
   width: 0;
@@ -33,13 +37,13 @@ body{
   padding: 8px;
   text-decoration: none;
   font-size: 36px;
-  color: #818181;
+  color: #f3e9e9;
   display: block;
   transition: 0.3s;
 }
 
 .overlay a:hover, .overlay a:focus {
-  color: #f1f1f1;
+  color: #282828;
 }
 
 .overlay .closebtn {
@@ -193,10 +197,12 @@ body{
 
 @media only screen and (min-width: 700px){
 
-/* .ham{
+.ham{
   display:none;
-} */
-  .overlay-content{
+}
+
+
+  nav{
     display:flex;
     flex-direction: row;
     align-items: center;
@@ -205,7 +211,7 @@ body{
     
 }
 
-.overlay-content a {
+nav a {
   text-decoration: none;
   color: white;
 }
@@ -214,11 +220,11 @@ body{
 
 @media only screen and (min-width: 1000px){
   
-  /* .ham{
+  .ham{
     display:none;
-  } */
+  }
 
-  .overlay-content{
+  nav{
     display:flex;
     flex-direction: row;
     align-items: center;
@@ -227,7 +233,7 @@ body{
     
 }
 
-.overlay-content a {
+nav a {
   text-decoration: none;
   color: white;
 }

@@ -10,12 +10,29 @@
 </head>
 <body>
     <header>
+        <div class="mreaders">
+            <img src="./images/logo-color.png" alt="Manga readers logo">
+        </div>
         <nav>
         <h3><a href="./index.html">Home</a></h3>
         <h3><a href="./discover.html">Discover</a></h3>
         <h3><a href="./directory.html">Directory</a></h3>
         <h3><a href="./share.html">Share</a></h3>
+        <h3><a href="./about.html">About</a></h3>
         </nav>
+      
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="./index.html">Home</a>
+                <a href="./discover.html">Discover</a>
+                <a href="./directory.html">Directory</a>
+                <a href="./share.html">Share</a>
+                <a href="./about.html">About</a>
+            </div>
+        </div>
+        
+        <span class="ham" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
     </header>
 
     <main>
@@ -25,5 +42,6 @@
     <footer class="foot">
         <p>&copy; <span class="year"></span> | Joseph Samuel Kwesi Kaku | Rexburg | Last Updated: <span class="updated"> </span></p>
     </footer>
+    <script src="./js/menu.js"></script>
 </body>
 </html>
