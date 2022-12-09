@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Share Page for Manga Readers">
     <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/share.css">
     <title>Share</title>
 </head>
 <body>
@@ -36,7 +37,26 @@
     </header>
 
     <main>
+        <div id="flex">
 
+            <form method="get" action="thankyou.html">
+                <label for="fname">First Name*: </label>
+                <input id="fname" type="text" name="firstname" required>
+                <label for="lname">Last Name*: </label>
+                <input id="lname" type="text" name="lastname" required>
+                <label for="email">Email: </label>
+                <input id="email" type="email" name="email" required>
+                <label for="phone">Cellphone: </label>
+                <input id="phone" type="tel" name="phone" required>
+        
+                <label for="message">Share your thoughts on this week's chapters:</label>
+                <textarea id="message" placeholder="your thoughts go here"></textarea>
+        
+                <input id="date" type="hidden" name="todaydate">
+        
+                <input type="submit" value="Share">
+        
+            </form>
     </main>
     
     <footer class="foot">

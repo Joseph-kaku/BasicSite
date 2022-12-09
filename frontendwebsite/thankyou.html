@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thank You</title>
+    <meta name="description" content="Thank You Page">
+    <link href="/css/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/thankyou.css">
+    <title>Manga Readers</title>
 </head>
 <body>
     <header>
@@ -16,13 +20,27 @@
         <h3><a href="./discover.html">Discover</a></h3>
         <h3><a href="./directory.html">Directory</a></h3>
         <h3><a href="./share.html">Share</a></h3>
+        <h3><a href="./about.html">About</a></h3>
         </nav>
+      
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="./index.html">Home</a>
+                <a href="./discover.html">Discover</a>
+                <a href="./directory.html">Directory</a>
+                <a href="./share.html">Share</a>
+                <a href="./about.html">About</a>
+            </div>
+        </div>
 
-        <!-- <div class="icon-ham">
-          <button class="ham">&#9776;</button>
-        </div> -->
+
+        <h1>
+            Thannk You for your thoughts
+        </h1>
+        
+        <span class="ham" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
     </header>
-    <button></button>
     
     <footer class="foot">
         <p>&copy; <span class="year"></span> | Joseph Samuel Kwesi Kaku | Rexburg | Last Updated: <span class="updated"> </span></p>
