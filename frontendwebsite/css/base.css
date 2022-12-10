@@ -69,6 +69,7 @@ nav{
     margin: 10px;
 }
 
+
 /* .mreaders {
   display:flex;
   justify-content: space-between;
@@ -195,10 +196,14 @@ nav{
 .foot {
   color: white;
   text-align: center;
-  border: 1px solid white;
-  background-color: #282828;
 }
 
+.foot p {
+  border: 1px solid white;
+  background-color: #282828;
+  margin-left: 100px;
+  margin-right: 100px;
+}
 
 @media only screen and (min-width: 700px){
 
