@@ -199,15 +199,31 @@ nav{
 /* footer */
 
 .foot {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+  background-color: #282828;
   color: white;
   text-align: center;
+  
+}
+
+.git{
+  width: 50px;
+  height: auto;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
 
 .foot p {
-  border: 1px solid white;
-  background-color: #282828;
   margin-left: 100px;
   margin-right: 100px;
+  padding: 15px;
 }
 
 @media only screen and (min-width: 700px){
