@@ -1,0 +1,23 @@
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center
+    
+}
+
+.about img {
+    display: flex;
+    width: 20%;
+    height: auto;
+    padding: 5px;
+    margin-bottom: 10%;
+    border: 2px solid black;
+    background-color: black;
+}
+
+.text{
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+}
