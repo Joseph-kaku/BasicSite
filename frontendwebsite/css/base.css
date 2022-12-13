@@ -201,7 +201,6 @@ nav{
 .foot {
   display: flex;
   flex-direction: column;
-  border: 1px solid white;
   background-color: #282828;
   color: white;
   text-align: center;
@@ -223,13 +222,18 @@ nav{
 .foot p {
   margin-left: 100px;
   margin-right: 100px;
-  padding: 15px;
 }
 
 @media only screen and (min-width: 700px){
 
 .ham{
   display:none;
+}
+
+.mreaders{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -263,6 +267,8 @@ nav a {
     background-color: #0C0032;
     
 }
+
+
 
 nav a {
   text-decoration: none;
