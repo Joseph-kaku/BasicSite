@@ -84,7 +84,7 @@ nav{
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 400px;
+  max-width: 900px;
   position: relative;
   margin: auto;
 }
@@ -200,7 +200,7 @@ nav{
 
 .foot {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   background-color: #282828;
   color: white;
   text-align: center;
