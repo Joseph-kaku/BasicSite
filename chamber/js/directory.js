@@ -1,4 +1,4 @@
-const requestURL = "https://joseph-kaku.github.io/wdd230/data.json"
+const requestURL = "https://joseph-kaku.github.io/BasicSite/data.json"
 
 async function getBusiness(requestURL) 
 {
